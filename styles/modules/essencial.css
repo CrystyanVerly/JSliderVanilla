@@ -10,6 +10,7 @@
 	will-change: transform;
 	height: 100%;
 	width: 100%;
+	transform: translate3d(-500px, 0px, 0px);
 }
 
 #slider-track li {

@@ -1,4 +1,4 @@
-import Slider from './modules/slider.js';
+import Slider from './modules/Slider.js';
 
 const banner = new Slider({
 	wrapper: `[data-slider="wrapper"]`,
@@ -6,3 +6,4 @@ const banner = new Slider({
 });
 
 console.log(banner);
+banner.init();
